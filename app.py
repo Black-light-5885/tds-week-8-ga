@@ -6,6 +6,8 @@ st.title("TDS week 8 assignemnt")
 st.write("---")
 st.header("Finding the maximum number given in the three numbers.")
 
-st.number_input("First Number :")
-st.number_input("Second Number :")
-st.number_input("Third Number :")
+n1 = st.number_input("First Number :")
+n2 =st.number_input("Second Number :")
+n3 =st.number_input("Third Number :")
+
+st.write("The maximum number is ",max([n1,n2,n3]))
